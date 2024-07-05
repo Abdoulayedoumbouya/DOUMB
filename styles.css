@@ -1,0 +1,90 @@
+.header{
+    align-items: center;
+     height: 60px;
+    background-color: black;
+    display: grid;
+    justify-content: space-between;
+  
+}
+.nav,a{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    color: #FFF;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.hero{
+    background-color: silver;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:silver ;
+    padding-top: 5px;
+    height: 30px;
+}
+.services{
+    display:grid ;
+   grid-template-columns: 2fr 2fr 2fr;
+    margin:0 20px;
+   column-gap: 5px;
+   height: 30px;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 30px 30px;
+  margin: 0 20px; 
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.contact{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   background-color: silver;
+   height: 250px;
+   color: white;
+}  
+.contact form{
+    display: grid;
+    justify-content: space-around;
+}
+label{
+    margin: 10px 0px;
+} 
+button{
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+}
+.footer{
+   display: grid;
+   text-align: center;
+   background-color: #333;
+   grid-template-columns: 1fr 1fr;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 40px;
+}
+.footer-info{
+    color: white;
+}
+
